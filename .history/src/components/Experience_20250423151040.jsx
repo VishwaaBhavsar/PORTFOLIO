@@ -9,7 +9,7 @@ const Experience = () => {
           <div className="bg-gray-700 h-12 w-12 rounded-full flex items-center justify-center mb-4 shadow-lg">
             <span className="text-white text-xl">💼</span>
           </div>
-          <h1 className="text-4xl font-bold text-black text-center">
+          <h1 className="text-4xl font-bold text-blacktext-center">
             Work <span className="text-gray-600">Experience</span>
           </h1>
           <div className="h-1 w-24 bg-gray-600 mt-4 rounded-full"></div>

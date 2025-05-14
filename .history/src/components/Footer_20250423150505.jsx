@@ -9,17 +9,17 @@ function Footer() {
         <nav className="flex gap-6">
           {/* GitHub */}
           <a href="https://github.com/VishwaaBhavsar" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/github.png" alt="GitHub" className="w-8 h-8 hover:opacity-70 transition duration-300" />
+            <img src="src\assets\github.png" alt="GitHub" className="w-8 h-8 hover:opacity-70 transition duration-300" />
           </a>
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/vishwaa-bhavsar-827907251/" target="_blank" rel="noopener noreferrer">
-            <img src="/assets/linkedin.png" alt="LinkedIn" className="w-7 h-7 hover:opacity-70 transition duration-300 " />
+            <img src="linkedin.png" alt="LinkedIn" className="w-7 h-7 hover:opacity-70 transition duration-300 " />
           </a>
 
           {/* Email */}
           <a href="mailto:vishwaa0606@gmail.com">
-            <img src="/assets/mail.png" alt="Email" className="w-8 h-8 hover:opacity-70 transition duration-300 mt-1" />
+            <img src="../../public/assets/mail.png" alt="Email" className="w-8 h-8 hover:opacity-70 transition duration-300 mt-1" />
           </a>
         </nav>
 

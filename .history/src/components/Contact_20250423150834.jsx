@@ -39,7 +39,7 @@ const Contact = () => {
           <div className="bg-gray-700 h-12 w-12 rounded-full flex items-center justify-center mb-4 shadow-lg">
             <span className="text-white text-xl">✉️</span>
           </div>
-          <h1 className="text-4xl font-bold text-black text-center">
+          <h1 className="text-4xl font-bold text-center">
             Contact <span className="text-gray-600">Me</span>
           </h1>
           <div className="h-1 w-24 bg-gray-600 mt-4 rounded-full"></div>
@@ -226,7 +226,7 @@ const Contact = () => {
                     ) : (
                       <div className="flex items-center justify-between w-full">
                         <span>Send Message</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 rotate-z-90 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 rotate-z-90 gap-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                         </svg>
                       </div>

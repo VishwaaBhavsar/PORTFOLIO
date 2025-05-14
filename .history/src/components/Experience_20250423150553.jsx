@@ -9,7 +9,7 @@ const Experience = () => {
           <div className="bg-gray-700 h-12 w-12 rounded-full flex items-center justify-center mb-4 shadow-lg">
             <span className="text-white text-xl">💼</span>
           </div>
-          <h1 className="text-4xl font-bold text-black text-center">
+          <h1 className="text-4xl font-bold text-center">
             Work <span className="text-gray-600">Experience</span>
           </h1>
           <div className="h-1 w-24 bg-gray-600 mt-4 rounded-full"></div>
@@ -20,7 +20,7 @@ const Experience = () => {
           <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-6">
             <div>
               <h3 className="text-2xl font-bold text-gray-800">Generative AI Intern</h3>
-              <p className="text-gray-600 font-medium">1M1B Foundation</p>
+              <p className="text-gray-600 font-medium">1m!b</p>
             </div>
             <div className="bg-gradient-to-r from-gray-700 to-gray-800 text-white px-4 py-2 rounded-lg shadow-md mt-3 md:mt-0">
               <p className="font-medium text-sm">Remote | Sep 2024 – Nov 2024</p>
