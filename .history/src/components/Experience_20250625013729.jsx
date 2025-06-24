@@ -143,7 +143,7 @@ const Experience = () => {
         </div>
 
         {/* Experience Grid */}
-        <div className="grid md:grid-cols-2  gap-15">
+        <div className="grid md:grid-cols-2  gap-12">
           {/* Oases Technovations */}
           <div className="bg-white rounded-xl shadow-xl p-12 transition duration-300 hover:shadow-2xl">
             <h3 className="text-2xl font-bold text-gray-800 mb-1">React.js Intern</h3>

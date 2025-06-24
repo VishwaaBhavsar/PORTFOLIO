@@ -143,9 +143,9 @@ const Experience = () => {
         </div>
 
         {/* Experience Grid */}
-        <div className="grid md:grid-cols-2  gap-15">
+        <div className="grid md:grid-cols-2  gap-8">
           {/* Oases Technovations */}
-          <div className="bg-white rounded-xl shadow-xl p-12 transition duration-300 hover:shadow-2xl">
+          <div className="bg-white rounded-xl shadow-xl p-6 transition duration-300 hover:shadow-2xl">
             <h3 className="text-2xl font-bold text-gray-800 mb-1">React.js Intern</h3>
             <p className="text-gray-600 font-medium mb-2">Oases Technovations Pvt. Ltd. (Emgage)</p>
             <p className="text-sm text-gray-500 mb-4">Ahmedabad, Gujarat | May 2025 – Jun 2025</p>
@@ -157,7 +157,7 @@ const Experience = () => {
           </div>
 
           {/* 1M1B Foundation */}
-          <div className="bg-white rounded-xl shadow-xl p-12 transition duration-300 hover:shadow-2xl">
+          <div className="bg-white rounded-xl shadow-xl p-6 transition duration-300 hover:shadow-2xl">
             <h3 className="text-2xl font-bold text-gray-800 mb-1">GenAI Intern</h3>
             <p className="text-gray-600 font-medium mb-2">1M1B Foundation</p>
             <p className="text-sm text-gray-500 mb-4">Remote | Sep 2024 – Nov 2024</p>

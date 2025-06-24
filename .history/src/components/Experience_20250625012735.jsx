@@ -123,8 +123,6 @@
 
 
 
-
-
 import React from 'react';
 
 const Experience = () => {
@@ -142,30 +140,53 @@ const Experience = () => {
           <div className="h-1 w-24 bg-gray-600 mt-4 rounded-full"></div>
         </div>
 
-        {/* Experience Grid */}
-        <div className="grid md:grid-cols-2  gap-15">
-          {/* Oases Technovations */}
-          <div className="bg-white rounded-xl shadow-xl p-12 transition duration-300 hover:shadow-2xl">
-            <h3 className="text-2xl font-bold text-gray-800 mb-1">React.js Intern</h3>
-            <p className="text-gray-600 font-medium mb-2">Oases Technovations Pvt. Ltd. (Emgage)</p>
-            <p className="text-sm text-gray-500 mb-4">Ahmedabad, Gujarat | May 2025 – Jun 2025</p>
-            <ul className="ml-5 list-disc text-gray-700 space-y-2 text-sm">
-              <li>Developed responsive UI components using React.js.</li>
-              <li>Contributed to feature implementation and bug fixes.</li>
-              <li>Ensured modern design standards and team collaboration.</li>
+        {/* Cards Grid */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Oases Technovations Card */}
+          <div className="bg-white rounded-xl shadow-xl p-8 transition duration-300 hover:shadow-2xl">
+            <div className="flex flex-col md:justify-between md:items-start mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-800">React.js Intern</h3>
+                <p className="text-gray-600 font-medium">Oases Technovations Pvt. Ltd. (Emgage)</p>
+              </div>
+              <div className="bg-gradient-to-r from-gray-700 to-gray-800 text-white px-4 py-2 rounded-lg shadow-md mt-3">
+                <p className="font-medium text-sm">Ahmedabad | May 2025 – Jun 2025</p>
+              </div>
+            </div>
+            <ul className="ml-6 list-disc text-gray-700 space-y-2">
+              <li>Contributed to frontend development using React.js as part of the Tech Department team.</li>
+              <li>Developed responsive and interactive UI components aligned with modern design principles.</li>
+              <li>Collaborated with the team to implement project features and resolve UI issues efficiently.</li>
+              <li>Demonstrated strong commitment, punctuality, and adaptability within a fast-paced environment.</li>
             </ul>
           </div>
 
-          {/* 1M1B Foundation */}
-          <div className="bg-white rounded-xl shadow-xl p-12 transition duration-300 hover:shadow-2xl">
-            <h3 className="text-2xl font-bold text-gray-800 mb-1">GenAI Intern</h3>
-            <p className="text-gray-600 font-medium mb-2">1M1B Foundation</p>
-            <p className="text-sm text-gray-500 mb-4">Remote | Sep 2024 – Nov 2024</p>
-            <ul className="ml-5 list-disc text-gray-700 space-y-2 text-sm">
-              <li>Fine-tuned LLMs for real-world applications.</li>
-              <li>Built tools like Smart Recipe Generator and News Summarizer.</li>
-              <li>Focused on practical, user-centric GenAI solutions.</li>
-            </ul>
+          {/* 1M1B Foundation Card */}
+          <div className="bg-white rounded-xl shadow-xl p-8 transition duration-300 hover:shadow-2xl">
+            <div className="flex flex-col md:justify-between md:items-start mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-800">Generative AI Intern</h3>
+                <p className="text-gray-600 font-medium">1M1B Foundation</p>
+              </div>
+              <div className="bg-gradient-to-r from-gray-700 to-gray-800 text-white px-4 py-2 rounded-lg shadow-md mt-3">
+                <p className="font-medium text-sm">Remote | Sep 2024 – Nov 2024</p>
+              </div>
+            </div>
+            <div className="space-y-4 text-gray-700">
+              <p>Designed and developed an AI-powered whiteboard leveraging LLaMA Multimodal, enabling seamless collaboration for teachers and students.</p>
+              <p>Built domain-specific AI applications:</p>
+              <ul className="ml-6 list-disc space-y-2">
+                <li>A fine-tuned medical chatbot for disease diagnosis and Q&A</li>
+                <li>A quiz generator tool for educational content</li>
+                <li>A news summarizer application for condensing articles</li>
+              </ul>
+              <p>Gained hands-on experience in:</p>
+              <ul className="ml-6 list-disc space-y-2">
+                <li>Fine-tuning and integrating Large Language Models (LLMs)</li>
+                <li>Document processing and text summarization workflows</li>
+                <li>Prompt engineering and multimodal AI development using advanced embeddings</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
